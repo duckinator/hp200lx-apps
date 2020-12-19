@@ -4,6 +4,8 @@ Various small programs I've written for the HP 200LX.
 
 Hopefully this will eventually include useful things.
 
+![An image of an HP 200LX at a DOS prompt, running the "hworld" command which prints "Hello, world!"](images/hello-world.jpg)
+
 ## Build System & Toolchain
 
 Notable make tasks:
