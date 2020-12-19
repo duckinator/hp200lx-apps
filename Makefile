@@ -1,4 +1,4 @@
-OUTDIR ?= "/run/media/*/LEXAR\ MEDIA/"
+OUTDIR ?= /run/media/*/LEXAR\ MEDIA/
 
 WATCOM := ${HOME}/software/openwatcom/
 PATH := "${HOME}/software/openwatcom/binl:${PATH}"
