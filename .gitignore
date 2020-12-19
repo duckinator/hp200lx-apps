@@ -1,3 +1,4 @@
-bin/
+/bin/
+/tools/
 *.o
 *.exe
