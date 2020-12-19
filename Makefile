@@ -1,4 +1,4 @@
-OUTPUT := /run/media/puppy/LEXAR\ MEDIA/
+OUTDIR ?= "/run/media/*/LEXAR\ MEDIA/"
 
 WATCOM := ${HOME}/software/openwatcom/
 PATH := "${HOME}/software/openwatcom/binl:${PATH}"
@@ -10,7 +10,10 @@ CFLAGS := -0 -bcl=dos -i=${HOME}/software/openwatcom/h
 #			-Wall -Wextra -Werror \
 #			-std=c99
 
-all: bin/hworld.exe
+all: bin/hworld.exe bin/cgatest.exe
+
+copy:
+	cp bin/* ${OUTDIR}
 
 bin:
 	mkdir -p bin
